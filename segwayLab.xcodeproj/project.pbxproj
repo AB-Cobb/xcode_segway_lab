@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18CA8CC423FF0FEF00B7FCA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA8CC323FF0FEF00B7FCA9 /* AppDelegate.swift */; };
+		18CA8CC623FF0FEF00B7FCA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA8CC523FF0FEF00B7FCA9 /* ViewController.swift */; };
+		18CA8CC923FF0FEF00B7FCA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CA8CC723FF0FEF00B7FCA9 /* Main.storyboard */; };
+		18CA8CCB23FF0FF000B7FCA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CA8CCA23FF0FF000B7FCA9 /* Assets.xcassets */; };
+		18CA8CCE23FF0FF000B7FCA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CA8CCC23FF0FF000B7FCA9 /* LaunchScreen.storyboard */; };
+		18CA8CD923FF0FF000B7FCA9 /* segwayLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA8CD823FF0FF000B7FCA9 /* segwayLabTests.swift */; };
+		18CA8CE423FF0FF000B7FCA9 /* segwayLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA8CE323FF0FF000B7FCA9 /* segwayLabUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18CA8CD523FF0FF000B7FCA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CA8CB823FF0FEF00B7FCA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CA8CBF23FF0FEF00B7FCA9;
+			remoteInfo = segwayLab;
+		};
+		18CA8CE023FF0FF000B7FCA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CA8CB823FF0FEF00B7FCA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CA8CBF23FF0FEF00B7FCA9;
+			remoteInfo = segwayLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18CA8CC023FF0FEF00B7FCA9 /* segwayLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = segwayLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CA8CC323FF0FEF00B7FCA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18CA8CC523FF0FEF00B7FCA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18CA8CC823FF0FEF00B7FCA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18CA8CCA23FF0FF000B7FCA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18CA8CCD23FF0FF000B7FCA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18CA8CCF23FF0FF000B7FCA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CA8CD423FF0FF000B7FCA9 /* segwayLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = segwayLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CA8CD823FF0FF000B7FCA9 /* segwayLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segwayLabTests.swift; sourceTree = "<group>"; };
+		18CA8CDA23FF0FF000B7FCA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CA8CDF23FF0FF000B7FCA9 /* segwayLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = segwayLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CA8CE323FF0FF000B7FCA9 /* segwayLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segwayLabUITests.swift; sourceTree = "<group>"; };
+		18CA8CE523FF0FF000B7FCA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CA8CBD23FF0FEF00B7FCA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CA8CD123FF0FF000B7FCA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CA8CDC23FF0FF000B7FCA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CA8CB723FF0FEF00B7FCA9 = {
+			isa = PBXGroup;
+			children = (
+				18CA8CC223FF0FEF00B7FCA9 /* segwayLab */,
+				18CA8CD723FF0FF000B7FCA9 /* segwayLabTests */,
+				18CA8CE223FF0FF000B7FCA9 /* segwayLabUITests */,
+				18CA8CC123FF0FEF00B7FCA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18CA8CC123FF0FEF00B7FCA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CA8CC023FF0FEF00B7FCA9 /* segwayLab.app */,
+				18CA8CD423FF0FF000B7FCA9 /* segwayLabTests.xctest */,
+				18CA8CDF23FF0FF000B7FCA9 /* segwayLabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CA8CC223FF0FEF00B7FCA9 /* segwayLab */ = {
+			isa = PBXGroup;
+			children = (
+				18CA8CC323FF0FEF00B7FCA9 /* AppDelegate.swift */,
+				18CA8CC523FF0FEF00B7FCA9 /* ViewController.swift */,
+				18CA8CC723FF0FEF00B7FCA9 /* Main.storyboard */,
+				18CA8CCA23FF0FF000B7FCA9 /* Assets.xcassets */,
+				18CA8CCC23FF0FF000B7FCA9 /* LaunchScreen.storyboard */,
+				18CA8CCF23FF0FF000B7FCA9 /* Info.plist */,
+			);
+			path = segwayLab;
+			sourceTree = "<group>";
+		};
+		18CA8CD723FF0FF000B7FCA9 /* segwayLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				18CA8CD823FF0FF000B7FCA9 /* segwayLabTests.swift */,
+				18CA8CDA23FF0FF000B7FCA9 /* Info.plist */,
+			);
+			path = segwayLabTests;
+			sourceTree = "<group>";
+		};
+		18CA8CE223FF0FF000B7FCA9 /* segwayLabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18CA8CE323FF0FF000B7FCA9 /* segwayLabUITests.swift */,
+				18CA8CE523FF0FF000B7FCA9 /* Info.plist */,
+			);
+			path = segwayLabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CA8CBF23FF0FEF00B7FCA9 /* segwayLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CA8CE823FF0FF000B7FCA9 /* Build configuration list for PBXNativeTarget "segwayLab" */;
+			buildPhases = (
+				18CA8CBC23FF0FEF00B7FCA9 /* Sources */,
+				18CA8CBD23FF0FEF00B7FCA9 /* Frameworks */,
+				18CA8CBE23FF0FEF00B7FCA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = segwayLab;
+			productName = segwayLab;
+			productReference = 18CA8CC023FF0FEF00B7FCA9 /* segwayLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18CA8CD323FF0FF000B7FCA9 /* segwayLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CA8CEB23FF0FF000B7FCA9 /* Build configuration list for PBXNativeTarget "segwayLabTests" */;
+			buildPhases = (
+				18CA8CD023FF0FF000B7FCA9 /* Sources */,
+				18CA8CD123FF0FF000B7FCA9 /* Frameworks */,
+				18CA8CD223FF0FF000B7FCA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CA8CD623FF0FF000B7FCA9 /* PBXTargetDependency */,
+			);
+			name = segwayLabTests;
+			productName = segwayLabTests;
+			productReference = 18CA8CD423FF0FF000B7FCA9 /* segwayLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18CA8CDE23FF0FF000B7FCA9 /* segwayLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CA8CEE23FF0FF000B7FCA9 /* Build configuration list for PBXNativeTarget "segwayLabUITests" */;
+			buildPhases = (
+				18CA8CDB23FF0FF000B7FCA9 /* Sources */,
+				18CA8CDC23FF0FF000B7FCA9 /* Frameworks */,
+				18CA8CDD23FF0FF000B7FCA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CA8CE123FF0FF000B7FCA9 /* PBXTargetDependency */,
+			);
+			name = segwayLabUITests;
+			productName = segwayLabUITests;
+			productReference = 18CA8CDF23FF0FF000B7FCA9 /* segwayLabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CA8CB823FF0FEF00B7FCA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Tech;
+				TargetAttributes = {
+					18CA8CBF23FF0FEF00B7FCA9 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					18CA8CD323FF0FF000B7FCA9 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 18CA8CBF23FF0FEF00B7FCA9;
+					};
+					18CA8CDE23FF0FF000B7FCA9 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 18CA8CBF23FF0FEF00B7FCA9;
+					};
+				};
+			};
+			buildConfigurationList = 18CA8CBB23FF0FEF00B7FCA9 /* Build configuration list for PBXProject "segwayLab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CA8CB723FF0FEF00B7FCA9;
+			productRefGroup = 18CA8CC123FF0FEF00B7FCA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CA8CBF23FF0FEF00B7FCA9 /* segwayLab */,
+				18CA8CD323FF0FF000B7FCA9 /* segwayLabTests */,
+				18CA8CDE23FF0FF000B7FCA9 /* segwayLabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CA8CBE23FF0FEF00B7FCA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CA8CCE23FF0FF000B7FCA9 /* LaunchScreen.storyboard in Resources */,
+				18CA8CCB23FF0FF000B7FCA9 /* Assets.xcassets in Resources */,
+				18CA8CC923FF0FEF00B7FCA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CA8CD223FF0FF000B7FCA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CA8CDD23FF0FF000B7FCA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CA8CBC23FF0FEF00B7FCA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CA8CC623FF0FEF00B7FCA9 /* ViewController.swift in Sources */,
+				18CA8CC423FF0FEF00B7FCA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CA8CD023FF0FF000B7FCA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CA8CD923FF0FF000B7FCA9 /* segwayLabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CA8CDB23FF0FF000B7FCA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CA8CE423FF0FF000B7FCA9 /* segwayLabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18CA8CD623FF0FF000B7FCA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CA8CBF23FF0FEF00B7FCA9 /* segwayLab */;
+			targetProxy = 18CA8CD523FF0FF000B7FCA9 /* PBXContainerItemProxy */;
+		};
+		18CA8CE123FF0FF000B7FCA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CA8CBF23FF0FEF00B7FCA9 /* segwayLab */;
+			targetProxy = 18CA8CE023FF0FF000B7FCA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18CA8CC723FF0FEF00B7FCA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CA8CC823FF0FEF00B7FCA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18CA8CCC23FF0FF000B7FCA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CA8CCD23FF0FF000B7FCA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CA8CE623FF0FF000B7FCA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18CA8CE723FF0FF000B7FCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CA8CE923FF0FF000B7FCA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = segwayLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ab-cobb.gbc.ca.segwayLab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18CA8CEA23FF0FF000B7FCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = segwayLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ab-cobb.gbc.ca.segwayLab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18CA8CEC23FF0FF000B7FCA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = segwayLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ab-cobb.gbc.ca.segwayLabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/segwayLab.app/segwayLab";
+			};
+			name = Debug;
+		};
+		18CA8CED23FF0FF000B7FCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = segwayLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ab-cobb.gbc.ca.segwayLabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/segwayLab.app/segwayLab";
+			};
+			name = Release;
+		};
+		18CA8CEF23FF0FF000B7FCA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = segwayLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ab-cobb.gbc.ca.segwayLabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = segwayLab;
+			};
+			name = Debug;
+		};
+		18CA8CF023FF0FF000B7FCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = segwayLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ab-cobb.gbc.ca.segwayLabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = segwayLab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CA8CBB23FF0FEF00B7FCA9 /* Build configuration list for PBXProject "segwayLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CA8CE623FF0FF000B7FCA9 /* Debug */,
+				18CA8CE723FF0FF000B7FCA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CA8CE823FF0FF000B7FCA9 /* Build configuration list for PBXNativeTarget "segwayLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CA8CE923FF0FF000B7FCA9 /* Debug */,
+				18CA8CEA23FF0FF000B7FCA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CA8CEB23FF0FF000B7FCA9 /* Build configuration list for PBXNativeTarget "segwayLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CA8CEC23FF0FF000B7FCA9 /* Debug */,
+				18CA8CED23FF0FF000B7FCA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CA8CEE23FF0FF000B7FCA9 /* Build configuration list for PBXNativeTarget "segwayLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CA8CEF23FF0FF000B7FCA9 /* Debug */,
+				18CA8CF023FF0FF000B7FCA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CA8CB823FF0FEF00B7FCA9 /* Project object */;
+}
